@@ -27,7 +27,14 @@ env/
 # Logs and temp files
 *.log
 doctor_response*.txt
-*.txt (if these are temp outputs)
+
+# Audio/Media test files
+*.mp3
+*.wav
+*.ogg
 
 # Dependencies
 .egg-info/
+
+# Environment
+.env
