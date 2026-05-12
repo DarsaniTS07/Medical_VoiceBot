@@ -1,1 +1,33 @@
-.env
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.coverage
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Virtual environments
+.venv/
+ENV/
+env/
+
+# Logs and temp files
+*.log
+doctor_response*.txt
+*.txt (if these are temp outputs)
+
+# Dependencies
+.egg-info/
