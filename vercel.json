@@ -1,8 +1,7 @@
 {
   "buildCommand": "pip install -r requirements.txt",
-  "runtime": "python@3.11",
   "functions": {
-    "gradio_app.py": {
+    "app.py": {
       "runtime": "python@3.11"
     }
   }
